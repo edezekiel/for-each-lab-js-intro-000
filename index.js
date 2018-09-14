@@ -19,3 +19,7 @@ newArray.forEach(function() {callback()});
 return newArray
 
 }
+
+function doToArray(array, callback){
+  array.forEach(function(){callback()})
+}
