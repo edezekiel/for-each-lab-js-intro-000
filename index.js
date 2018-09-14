@@ -8,7 +8,7 @@ function iterativeLog(array) {
 }
 
 
-function iterative(callback) {
+function iterate(callback) {
 
 //initialize an array - not empty
 var newArray = ["bob"];
