@@ -7,7 +7,6 @@ function iterativeLog(array) {
 	)
 }
 
-
 function iterate(callback) {
 
 //initialize an array - not empty
