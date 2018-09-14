@@ -1,3 +1,13 @@
+function iterativeLog(array) {
+
+//call .foreach() on this array
+
+//inside th callback, log each element with the format $ ...
+	array.forEach(function(index, element) {console.log(`${index}: ${element}`)}
+	)
+}
+
+
 function iterative(callback) {
 
 //initialize an array - not empty
