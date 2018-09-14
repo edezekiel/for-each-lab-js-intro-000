@@ -3,7 +3,7 @@ function iterativeLog(array) {
 //call .foreach() on this array
 
 //inside the callback, log each element with the format $ ...
-	array.forEach(function(index, element) {console.log(`${index}: ${element}`)}
+	array.forEach(function(element, index) {console.log(`${index}: ${element}`)}
 	)
 }
 
